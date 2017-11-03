@@ -1,0 +1,179 @@
+
+body{
+      
+      color: #FFFFFF;
+      font-family: verdana;
+      font-size: 1em;
+}
+
+h1{
+	background: #005883;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+	 
+}
+h3,h4, h5{
+	color: black;
+}
+p{
+	color: black;
+	
+}
+
+header, nav, footer{
+	background: #005883;
+	border-radius: 0.5ex;
+    margin:0.5em auto;
+    max-width: 1118px;
+    padding: 0.25em;
+
+}
+
+ #contenedor{
+	margin: 0.5em auto;
+	max-width: 1118px;
+	min-height: 200px;
+	padding: 0;
+	background: #FFFFFF;
+	text-align: justify;
+	width: 65%;
+	border-top: 5px solid  #F47920;
+} 
+
+ #contenedor2{
+	margin: 0.5em auto;
+	max-width: 1118px;
+	padding: 0;
+	background: #FFFFFF;
+	text-align: justify;
+	width: 65%;
+	border-top: 5px solid  #F47920;
+	margin-top: 20px
+} 
+
+#contenedor3{
+	margin: 0.5em auto;
+	max-width: 1118px;
+	padding: 0;
+	border-top: 5px solid  #F47920;
+	
+}
+#article{
+	margin: 0.5em auto;
+	max-width: 1118px;
+	min-height: 200px;
+	padding: 0;
+	background: #FFFFFF;
+	text-align: justify;
+	width: 65%;
+}
+
+#img2{
+	display: inline-block;
+	margin: -0.10em auto;
+	margin-top: -70px;
+    overflow: hidden;
+    float: left;
+}
+
+#img1{
+	margin-top: -210px;
+	padding: 0 400px 0 0;
+	float: right;
+}
+
+#img3{
+	margin-top: 100px;
+	float: right;
+}
+#img4{
+
+	padding: 0 0 5px -40px;
+	margin-left: 600px;
+	margin-top: -180px;
+	height: 300px;
+	width: 300px;
+}
+nav{
+	height: 60px;
+
+}
+
+ul, ol {
+	list-style: none;
+
+}
+.nav li a{
+	display: block;
+	background-color: #005883;
+	color: white;
+	padding: 10px 15px;
+	display: block;
+	text-decoration-line: none;
+
+}
+
+.nav > li{
+	float: left;
+	padding: 0 20px;
+
+}
+
+.nav li a:hover{
+	background-color: #CCCCCC;
+	
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+
+}
+#footer{
+	text-align: center;
+	max-width: 1118px;
+}
+
+#footer1{
+	text-align: center;
+	margin-bottom: 100px;
+	max-width: 1118px;
+
+}
+
+#footer2{
+	text-align: center;
+	margin-bottom: 400px;
+	max-width: 1118px;
+
+}
+
+iframe{
+	height: 500px;
+	width: 700px;
+}
+
+object{
+	margin-left: 600px;
+	width:  120px;
+	height:160px;
+
+}
+aside{
+	float: right;
+	width: 400px;
+	height: 500px;
+	border-style: solid;
+	border-color: #004669;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-left: 10px;
+	margin-top: -550px;
+	margin-right: 200px;
+}
